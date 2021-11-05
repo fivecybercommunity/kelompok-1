@@ -1,0 +1,22 @@
+.header{
+    background-color: #b8c1ec;  
+    height: 68px; 
+}
+
+.header-list{
+
+    ul li{
+        list-style: none;
+    }
+
+    a{
+        float: right;
+        margin: -3px 50px;
+        background-color: beige;
+        display: block;
+        padding: 10px 10px;
+        border-radius: 50px;
+        text-decoration: none;
+    }
+    
+}

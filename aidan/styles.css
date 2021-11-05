@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
+.header-list .sub-judul {
+  font-family: "Roboto Condensed", "sans-serif";
+  font-size: 16px;
+}
+
+.header {
+  background-color: #b8c1ec;
+  height: 68px;
+}
+
+.header-list ul li {
+  list-style: none;
+}
+.header-list a {
+  float: right;
+  margin: -3px 50px;
+  background-color: beige;
+  display: block;
+  padding: 10px 10px;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}/*# sourceMappingURL=styles.css.map */
