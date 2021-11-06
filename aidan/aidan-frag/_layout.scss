@@ -1,6 +1,13 @@
+/*HEADER*/
 .header{
     background-color: #b8c1ec;  
     height: 68px; 
+}
+.header-logo{
+    float:left;
+    margin:-5px 20px;
+    display: flex;
+    position: relative;
 }
 
 .header-list{
@@ -11,12 +18,31 @@
 
     a{
         float: right;
-        margin: -3px 50px;
         background-color: beige;
-        display: block;
+        display: flex;
         padding: 10px 10px;
         border-radius: 50px;
         text-decoration: none;
+        position: relative;
+        margin:15px 20px;
+        box-shadow: 0px 5px rgb(148, 147, 147);
+        cursor: pointer;
     }
-    
+    a:active{
+        box-shadow: none;
+        top: 5px;
+        position: relative;
+    }
+}
+
+/*FOOTER*/
+.footer{
+    background-color: #b8c1ec;
+    text-align: center;
+    h3{
+        margin-left: 230px;
+    }
+    img{
+        border-radius: 5px;
+    }
 }
