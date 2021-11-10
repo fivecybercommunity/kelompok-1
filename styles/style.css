@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+main h1, main h2, main p {
+  text-align: center;
+}
+main h1 {
+  color: #fffffe;
+  font-size: 36.06px;
+}
+main h2 {
+  color: #fffffe;
+  font-size: 31.24px;
+}
+main h1, main h2 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+main p {
+  font-family: "Montserrat", sans-serif;
+  color: #b8c1ec;
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #232946;
+}
+
+img {
+  height: 370px;
+  width: auto;
+}
+
+main {
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.jumbotron {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.jumbotron .jumbotron-judul .judul {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.jumbotron .jumbotron-judul .subjudul {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.content-penjelasan-ekskul {
+  display: block;
+  -webkit-margin-start: 10%;
+          margin-inline-start: 10%;
+  -webkit-margin-end: 10%;
+          margin-inline-end: 10%;
+  justify-content: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.content-divisi {
+  display: block;
+  -webkit-margin-start: 10%;
+          margin-inline-start: 10%;
+  -webkit-margin-end: 10%;
+          margin-inline-end: 10%;
+  justify-content: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.txt {
+  height: auto;
+  text-align: center;
+}
+
+.content-divisi h1 {
+  margin-bottom: 10px;
+}
+.content-divisi .content-divisi-developer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.content-divisi .content-divisi-developer .judul {
+  margin-bottom: 10px;
+}
+.content-divisi .content-divisi-designer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.content-divisi .content-divisi-designer .judul {
+  margin-bottom: 10px;
+}/*# sourceMappingURL=style.css.map */
