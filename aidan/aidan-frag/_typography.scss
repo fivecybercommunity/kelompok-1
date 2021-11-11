@@ -3,7 +3,7 @@
 
 
 $font1:'Roboto Condensed', 'sans-serif';
-$font2:'Monsterrat', 'sans-serif';
+$font2:'Montserrat', 'sans-serif';
 
 .header-list{
     .sub-judul{
@@ -14,13 +14,15 @@ $font2:'Monsterrat', 'sans-serif';
 }
 
 .footer{
-    h3{
+
+    .sub-judul{
         font-family: $font1;
         font-size: 20px;
     }
-    p{
+
+    .txt{
         font-family: $font2;
         font-weight: bold;
-        font-size: 16px;
+        font-size: 12px;
     }
 }
