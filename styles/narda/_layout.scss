@@ -1,0 +1,84 @@
+@use 'variables' as *;
+
+@mixin tes{
+    display: block;
+    margin-inline-start: 10%;
+    margin-inline-end: 10%;
+    justify-content: center;
+}
+
+@mixin padding($padding-size) {
+    padding-top: $padding-size;
+    padding-bottom: $padding-size;    
+}
+
+*{
+    margin: 0;
+}
+
+body{
+    background-color: $background;
+}
+
+
+img{
+    height: 370px;
+    width: auto;
+}
+
+main{
+    justify-content: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.jumbotron{
+    @include padding(90px);
+    .jumbotron-judul{
+        .judul{
+            @include padding(5px);
+        }
+
+        .subjudul{
+            @include padding(10px);
+        }
+    }
+}
+
+.content-penjelasan-ekskul{
+    @include tes;
+    @include padding(200px);
+}
+
+.content-divisi{
+    @include tes;
+    @include padding(200px);
+}
+
+.txt{
+    height: auto;
+    text-align: center;
+}
+
+.content-divisi{
+    h1{
+        margin-bottom: 10px
+    }
+
+    .content-divisi-developer{
+        @include padding(20px);
+        .judul{
+            margin-bottom: 10px;
+        }
+    }
+
+    .content-divisi-designer{
+        @include padding(20px);
+        .judul{
+            margin-bottom: 10px;
+        }
+    }
+}
