@@ -27,13 +27,18 @@
 
         a{
             text-decoration: none;
-            background-color: beige;
-            border-radius: 20px;
+            border-style: solid;
+            border-color: beige;
+            border-radius: 15px;
             display: flex;
             margin:20px 20px;
             align-items: center;
             padding:5px 5px ;
-            color:black;
+            color:white;
+        }
+        a:hover{
+            background-color: beige;
+            color: black;
         }
     }
 }
