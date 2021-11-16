@@ -11,9 +11,18 @@ body {
   background-color: #232946;
 }
 
-img {
-  height: 370px;
+main img {
+  height: 350px;
   width: auto;
+}
+
+.container {
+  flex-direction: column;
+  width: 60%;
+  height: auto;
+}
+.container .judul {
+  margin-bottom: 25px;
 }
 
 main {
@@ -26,38 +35,38 @@ main {
 }
 
 .jumbotron {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .jumbotron .jumbotron-judul .judul {
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .jumbotron .jumbotron-judul .subjudul {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .content-penjelasan-ekskul {
-  display: block;
+  display: flex;
   -webkit-margin-start: 10%;
           margin-inline-start: 10%;
   -webkit-margin-end: 10%;
           margin-inline-end: 10%;
   justify-content: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .content-divisi {
-  display: block;
+  display: flex;
+  justify-content: center;
+  display: flex;
   -webkit-margin-start: 10%;
           margin-inline-start: 10%;
   -webkit-margin-end: 10%;
           margin-inline-end: 10%;
   justify-content: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
 
 .txt {
@@ -65,22 +74,31 @@ main {
   text-align: center;
 }
 
-.content-divisi h1 {
-  margin-bottom: 10px;
+.content-divisi {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  flex-direction: column;
 }
-.content-divisi .content-divisi-developer {
-  padding-top: 20px;
-  padding-bottom: 20px;
+.content-divisi img {
+  height: auto;
+  width: 300px;
+}
+.content-divisi h1 {
+  margin-bottom: 30px;
+}
+.content-divisi .content-divisi-developer .p {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .content-divisi .content-divisi-developer .judul {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
-.content-divisi .content-divisi-designer {
-  padding-top: 20px;
-  padding-bottom: 20px;
+.content-divisi .content-divisi-designer .p {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .content-divisi .content-divisi-designer .judul {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .pembatas {
@@ -88,6 +106,13 @@ main {
   margin: auto;
 }
 
+@media only screen and (max-width: 700px) {
+  .container {
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+  }
+}
 main h1, main h2, main p {
   text-align: center;
 }
@@ -160,6 +185,8 @@ main p {
   align-items: center;
   justify-content: center;
   gap: 25px;
+  height: 100px;
+  font-size: 32px;
 }
 .footer img {
   border-radius: 5px;
@@ -178,7 +205,7 @@ main p {
 
 .footer .sub-judul {
   font-family: "Roboto Condensed", "sans-serif";
-  font-size: 20px;
+  font-size: 22px;
 }
 .footer .txt {
   font-family: "Montserrat", "sans-serif";
@@ -223,7 +250,34 @@ h4 {
   font-size: 25px;
 }
 
+.judul {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .Aidan img {
   width: 300px;
   height: auto;
+}
+
+.Defta img {
+  width: 300px;
+  height: auto;
+}
+
+.Narda img {
+  width: 300px;
+  height: auto;
+}
+
+.Aidan {
+  margin-bottom: 50px;
+}
+
+.Defta {
+  margin-bottom: 50px;
+}
+
+.Narda {
+  margin-bottom: 50px;
 }/*# sourceMappingURL=styles.css.map */

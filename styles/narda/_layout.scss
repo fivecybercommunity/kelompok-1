@@ -8,8 +8,8 @@
 }
 
 @mixin padding($padding-size) {
-    padding-top: $padding-size;
-    padding-bottom: $padding-size;    
+    padding-top: 50px;
+    padding-bottom: 50px;    
 }
 
 @mixin page1-content {
@@ -33,11 +33,13 @@ main{
 }
 
 
+
 .container{
     flex-direction: column;
     @include page1-content;
     .judul{
-        margin-bottom: 10px;
+        margin-bottom: 25px;
+
     }
 }
 
@@ -77,10 +79,11 @@ main{
 
 .txt{
     height: auto;
-    text-align: left;
+    text-align: center;
 }
 
 .content-divisi{
+    @include padding(50px);
     flex-direction: column;
     img{
         height: auto;
@@ -88,20 +91,30 @@ main{
     }
 
     h1{
-        margin-bottom: 10px
+        margin-bottom: 30px
     }
 
     .content-divisi-developer{
+
+        .p{
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
         
         .judul{
-            margin-bottom: 10px;
+            margin-bottom: 30px;
         }
     }
 
     .content-divisi-designer{
+        
+        .p{
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
 
         .judul{
-            margin-bottom: 10px;
+            margin-bottom: 30px;
         }
     }
 }
