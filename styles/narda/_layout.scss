@@ -1,7 +1,7 @@
 @use 'variables' as *;
 
 @mixin tes{
-    display: block;
+    display: flex;
     margin-inline-start: 10%;
     margin-inline-end: 10%;
     justify-content: center;
@@ -12,6 +12,11 @@
     padding-bottom: $padding-size;    
 }
 
+@mixin page1-content {
+    width: 60%;
+    height: auto;
+}
+
 *{
     margin: 0;
 }
@@ -20,11 +25,22 @@ body{
     background-color: $background;
 }
 
-
-img{
-    height: 370px;
-    width: auto;
+main{
+    img{
+        height: 350px;
+        width: auto;
+    }
 }
+
+
+.container{
+    flex-direction: column;
+    @include page1-content;
+    .judul{
+        margin-bottom: 10px;
+    }
+}
+
 
 main{
     justify-content: center;
@@ -54,29 +70,36 @@ main{
 }
 
 .content-divisi{
+    display: flex;
+    justify-content: center;
     @include tes;
-    @include padding(200px);
 }
 
 .txt{
     height: auto;
-    text-align: center;
+    text-align: left;
 }
 
 .content-divisi{
+    flex-direction: column;
+    img{
+        height: auto;
+        width: 300px;
+    }
+
     h1{
         margin-bottom: 10px
     }
 
     .content-divisi-developer{
-        @include padding(20px);
+        
         .judul{
             margin-bottom: 10px;
         }
     }
 
     .content-divisi-designer{
-        @include padding(20px);
+
         .judul{
             margin-bottom: 10px;
         }
@@ -85,4 +108,12 @@ main{
 .pembatas{
     width:80%;
     margin: auto;
+}
+
+@media only screen and (max-width: 700px) {       
+    .container{
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+    }
 }
