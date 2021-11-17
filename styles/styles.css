@@ -263,16 +263,19 @@ h4 {
 .Aidan img {
   width: 300px;
   height: auto;
+  border-radius: 20px;
 }
 
 .Defta img {
   width: 300px;
   height: auto;
+  border-radius: 20px;
 }
 
 .Narda img {
   width: 300px;
   height: auto;
+  border-radius: 20px;
 }
 
 .Aidan {
@@ -305,7 +308,9 @@ h4 {
   width: 200px;
   height: auto;
   margin-right: 8px;
+  border-radius: 16px;
 }
+
 .tengah {
   text-align: center;
   margin-bottom: 16px;
