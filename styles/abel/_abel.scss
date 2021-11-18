@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+$font:'Montserrat', 'sans-serif';
+
+
 .karya {
+
     margin : 96px auto;
     display : flex;
     flex-direction : column;
@@ -11,6 +16,10 @@
         border-radius : 16px;
         padding : 8px;
         margin : 16px;
+        
+        p{
+            font-family:$font;
+        }
 
         img {
             width : 200px;
